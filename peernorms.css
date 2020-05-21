@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(000000);
+    position: relative;
+}
+.container {
+    height: 800px;
+    background-color:  salmon;
+    top: 50%;
+    left: 50%;
+} 
+.col_2 {
+    height: 400px ; 
+    background-color: black; 
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,20%);
+}
+.row_1 {
+    height: 200px ; 
+    background-color: grey; 
+    position: absolute; 
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+.yellowfaces {
+    height: 50px ; 
+    background-color: yellow; 
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,200%);
+
+}
+.button {
+    position: relative;
+    top: 30%;
+    left: 70%;
+    transform: translate(-160%,-50%);
+}
+.facescale {
+    position: relative;
+    top: 50%;
+    left: 70%;
+    bottom: 20%;
+    transform: translate(-50%,190%);
+    background-color: grey; 
+}
